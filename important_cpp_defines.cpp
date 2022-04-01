@@ -33,3 +33,17 @@ using namespace std;
 #define REV(v)          reverse(v.begin(),v.end())
 
 #define FastRead        ios_base::sync_with_stdio(0);cin.tie(nullptr);
+#define br printf("\n")
+
+
+// specials
+#define INF         1011111111
+#define LLINF       1000111000111000111LL
+#define EPS         (double)1e-10
+#define MOD         1000000007
+
+
+// loops 
+
+#define rep(i, n) for (int (i) = 0; (i) < (int)(n); ++(i))
+
