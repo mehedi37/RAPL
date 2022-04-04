@@ -1,3 +1,9 @@
+/*
+Links:
+https://vjudge.net/contest/486963#problem/X
+https://cses.fi/problemset/result/3773542
+*/
+
 #include <iostream>
 #include <vector>
 using namespace std;
