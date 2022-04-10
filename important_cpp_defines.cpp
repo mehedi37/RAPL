@@ -44,6 +44,19 @@ using namespace std;
 
 
 // loops 
+#define foi(a, b, c) for (ll c{(a)}; c < (b); c++)
+#define fod(a, b, c) for (ll (c){(a)}; (c) < (b); (c)--)
 
 #define rep(i, n) for (int (i) = 0; (i) < (int)(n); ++(i))
+
+
+
+// OPTIMIZE
+
+#pragma GCC target ("avx2")
+#pragma GCC optimization ("O3")
+#pragma GCC optimization ("O2")
+#pragma GCC optimization ("unroll-loops")
+#pragma GCC optimize("Ofast")
+#pragma GCC target("avx,avx2,fma")
 
