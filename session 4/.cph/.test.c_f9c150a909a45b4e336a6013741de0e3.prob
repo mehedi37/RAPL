@@ -1,0 +1,1 @@
+{"name":"Local: test","url":"c:\\Users\\mjmeh\\OneDrive\\Desktop\\Work\\RAPL\\10April\\test.c","tests":[{"id":1649770613255,"input":"2\n4\n1 2 3 4\n2 1 3 4\n4\n1 1 2 2\n1 2 1 1","output":"2\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\mjmeh\\OneDrive\\Desktop\\Work\\RAPL\\10April\\test.c","group":"local","local":true}
