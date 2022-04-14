@@ -1,2 +1,2 @@
-# [*Contese*](https://drive.google.com/drive/folders/1bxaKSyoUQkylDzsEP4OepcBuHOsx69KS?usp=sharing)
+# [*Contese*](https://vjudge.net/contest/488382#problem)
 # PASS :  `amrapari`
