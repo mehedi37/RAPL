@@ -1,40 +1,31 @@
 #include<iostream>
-#include<vector>
 using namespace std;
 #define fastIO        ios_base::sync_with_stdio(0);cin.tie(nullptr);
 
-// void dis(vector<int> &v) {
-//     for (auto val : v) {
-//         cout << val << ' ';
-//     }
-// }
 
 int main() {
     fastIO
     int n{0};
     cin >> n;
-    vector<int> b, a;
+    int b[n], a[n];
     for (int i{0}; i < n; i++) {
-        int temp{0};
-        cin >> temp;
-        a.push_back(temp);
+         cin >> a[i];
+         a[i]--;
     }
     for (int i{0}; i < n; i++) {
-        int temp{0};
+        int temp;
         cin >> temp;
-        b.push_back(temp);
+        b[temp-1] = i;
     }
-    int fn{0}, flg{0};
-    for (int i{0}; b.begin()+i+1 != b.end(); i++) {
-        if (b[i] != a[i]) {
-            b.erase(b.begin()+i);
-            fn++;
-            i--;
+    int fn{0}, flg{-1};
+    for (auto j = 0; j < n; j++) {
+        //cout << b[a[j]] << ' ';
+        if (b[a[j]] > flg) {
+            //cout << endl;
+            flg = b[a[j]];
+            continue;
         }
+        fn++;
     }
-    // dis(a);
-    // cout << "\n#########################\n";
-    // dis(b);
-
     cout << fn << '\n';
 }
