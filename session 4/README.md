@@ -1,2 +1,2 @@
-# [*Contese*](https://vjudge.net/contest/488382#problem)
+# [*Contest*](https://vjudge.net/contest/488382#problem)
 # PASS :  `amrapari`
